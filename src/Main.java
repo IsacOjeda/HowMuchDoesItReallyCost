@@ -24,7 +24,8 @@ public class Main {
         System.out.printf("Estimated Gas Cost: -$%.2f\n",gasPriceDollars);
         System.out.println("Estimated Travel Time: "+hours+" hours and "+minutes+" minutes");
         System.out.println("-----------------TOTAL PRICE------------------");
-        System.out.println("-$"+realPrice);
+        System.out.printf("-$%.2f",realPrice);
+        System.out.println();
         System.out.println("-"+hours+" hours and "+minutes+" minutes of your life that you will never get back");
 
 
