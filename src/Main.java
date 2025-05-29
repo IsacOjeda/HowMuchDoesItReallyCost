@@ -28,6 +28,6 @@ public class Main {
         System.out.println();
         System.out.println("-"+hours+" hours and "+minutes+" minutes of your life that you will never get back");
 
-
+        scanner.close();
     }
 }
